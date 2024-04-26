@@ -18,5 +18,8 @@ public class ReportController {
 	public String indexPage() {
 		return "index";
 	}
-	
+
+
+
+	//
 }
