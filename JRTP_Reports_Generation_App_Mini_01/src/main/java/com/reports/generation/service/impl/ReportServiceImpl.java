@@ -19,7 +19,9 @@ public class ReportServiceImpl implements ReportService {
 	@Override
 	public List<String> getPlanNames() {
 		
-		return null;
+		List<String> fetchPlanNames =citizenPlanRepository.fetchPlanNames();
+		
+		return fetchPlanNames;
 	}
 
 	@Override
