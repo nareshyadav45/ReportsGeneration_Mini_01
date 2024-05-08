@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.reports.generation.entity.CitizenPlan;
 import com.reports.generation.request.SearchRequest;
+import com.reports.generation.response.SearchResponse;
 
 public interface ReportService {
 
@@ -11,7 +12,7 @@ public interface ReportService {
 	
 	public List<String> getPlanStatuses();
 	
-	public List<CitizenPlan> search(SearchRequest searchRequest);
+	public SearchResponse search(SearchRequest searchRequest);
 	
 	public boolean exportDataExcel();
 	
