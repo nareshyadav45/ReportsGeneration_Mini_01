@@ -32,8 +32,8 @@ public class CitizenPlan {
 	private LocalDate terminatedDate;
 	private String terminationReason;
 	
-	public Double getBenefitedAmt(Double amt) {
-		return this.benefitedAmt=amt;
+	public Double getBenefitedAmt() {
+		return benefitedAmt;
 	}
 	
 	public void setBenefitedAmt(Double benefitedAmt) {
